@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: eureka-client-consumer
+
+server:
+  port: 9082
+
+eureka:
+  client:
+    service-url: http://localhost:${server.port}/eureka
+
+
